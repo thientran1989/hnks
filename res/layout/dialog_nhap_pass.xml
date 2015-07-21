@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:gravity="left|center"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+         
+        <!-- This is for the info image -->
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@android:drawable/ic_menu_info_details" />
+ 
+        <!-- Title -->
+
+        <TextView
+            android:id="@+id/tvmessagedialogtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dip"
+            android:layout_weight="0.01"
+            android:padding="8dp"
+            android:text="@string/nhap_mat_khau"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#343434"
+            android:textStyle="normal"
+            android:typeface="normal" />
+
+        <LinearLayout
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:orientation="vertical"
+             >
+
+            <Button
+                android:id="@+id/btn_yes_dialog_nhap_pass"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/roud_button_so_luong"
+                android:text="@string/ok"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:typeface="normal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+ 
+    <!-- Underline with this bluish color -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#09adb9" />
+ 
+    <!-- The message -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ten_dang_nhap"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/red"
+            android:textStyle="bold" 
+            android:paddingLeft="5dp"/>
+
+        <EditText
+            android:id="@+id/edt_username_dialog_nhap_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="@string/nhap_ten_dang_nhap_ban" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mat_khau"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"  />
+
+        <EditText
+            android:id="@+id/edt_matkhau_dialog_nhap_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="@string/nhap_mat_khau_ban" />
+    </LinearLayout>
+
+ 	<View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@color/xam_50" />
+ 
+</LinearLayout>

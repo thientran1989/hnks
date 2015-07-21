@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="70dp"
+    android:orientation="vertical" 
+    android:background="@color/mau_nen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+        <Button
+            android:id="@+id/btn_ve_mau_row_mau_canvas"
+            android:layout_width="@dimen/button_round_large_size"
+            android:layout_height="@dimen/button_round_large_size"
+            android:text="@string/ve"
+            android:background="@drawable/roud_button_ok"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/tv_TEN_MAU_row_canvas"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingLeft="5dp"/>
+        <Button
+            android:id="@+id/btn_xoa_mau_row_mau_canvas"
+            android:layout_width="@dimen/button_round_large_size"
+            android:layout_height="@dimen/button_round_large_size"
+            android:text="@string/xoa"
+            android:background="@drawable/roud_button_xoa"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+</LinearLayout>

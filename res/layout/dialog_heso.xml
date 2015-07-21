@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mau_nen" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:orientation="vertical" 
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="@string/he_so_ht"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/xanh_sang_500" 
+                android:gravity="center"
+                android:textSize="@dimen/co_chu_giaodien"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:orientation="horizontal"
+            
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_PT_TT_dialog_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="tv_PT_TT"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_PT_K_dialog_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="K"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_PT_C1_dialog_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+			 <View
+                    android:layout_width="@dimen/cyan_line_row"
+                    android:layout_height="match_parent"
+                    android:background="@color/cyan"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:orientation="vertical"
+                android:paddingLeft="5dp" >
+
+                <TextView
+                    android:id="@+id/tv_PT_C_dialog_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_PT_VAT_dialog_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VAT"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_PT_NC1_dialog_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NC1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+			<View
+                    android:layout_width="@dimen/cyan_line_row"
+                    android:layout_height="match_parent"
+                    android:background="@color/cyan"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"  >
+
+                <TextView
+                    android:id="@+id/tv_PT_TL_dialog_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TL"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_PT_NC_dialog_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NC"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lv_HESO_dialog_heso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

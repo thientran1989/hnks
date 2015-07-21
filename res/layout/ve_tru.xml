@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mau_nen"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" 
+    android:gravity="center|left">
+    <!-- Top Buttons -->
+
+    <ImageButton
+        android:id="@+id/imb_tru_btlt_12_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:onClick="ve_tru_btlt_12_hhuu"
+        android:src="@drawable/cv_tru_btlt_12_hhuu" />
+
+     <ImageButton
+         android:id="@+id/imb_tru_btlt_12_slap"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:onClick="ve_tru_btlt_12_slap"
+         android:src="@drawable/cv_tru_btlt_12_slap" />
+
+     <ImageButton
+        android:id="@+id/imb_tru_btlt_14_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btlt_14_hhuu"
+        android:src="@drawable/cv_tru_btlt_14_hhuu" />
+     <ImageButton
+        android:id="@+id/imb_tru_btlt_14_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btlt_14_slap"
+        android:src="@drawable/cv_tru_btlt_14_slap" />
+     <ImageButton
+        android:id="@+id/imb_tru_btlt_20_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btlt_20_hhuu"
+        android:src="@drawable/cv_tru_btlt_20_hhuu" />
+     <ImageButton
+        android:id="@+id/imb_tru_btlt_20_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btlt_20_slap"
+        android:src="@drawable/cv_tru_btlt_20_slap" />
+       <ImageButton
+        android:id="@+id/imb_tru_btlt_75_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btlt_75_hhuu"
+        android:src="@drawable/cv_tru_btlt_75_hhuu" />
+     <ImageButton
+        android:id="@+id/imb_tru_btlt_75_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btlt_75_slap"
+        android:src="@drawable/cv_tru_btlt_75_slap" />
+      <ImageButton
+        android:id="@+id/imb_tru_btlt_85_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btlt_85_hhuu"
+        android:src="@drawable/cv_tru_btlt_85_hhuu" />
+     <ImageButton
+        android:id="@+id/imb_tru_btlt_85_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btlt_85_slap"
+        android:src="@drawable/cv_tru_btlt_85_slap" />
+       <ImageButton
+        android:id="@+id/imb_tru_btlt_105_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btlt_105_hhuu"
+        android:src="@drawable/cv_tru_btlt_105_hhuu" />
+     <ImageButton
+        android:id="@+id/imb_tru_btlt_105_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btlt_105_slap"
+        android:src="@drawable/cv_tru_btlt_105_slap" />
+      <ImageButton
+        android:id="@+id/imb_tru_btv_11_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btv_11_hhuu"
+        android:src="@drawable/cv_tru_btv_11_hhuu" />
+     <ImageButton
+        android:id="@+id/imb_tru_btv_11_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btv_11_slap"
+        android:src="@drawable/cv_tru_btv_11_slap" />
+      <ImageButton
+        android:id="@+id/imb_tru_btv_65_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btv_65_hhuu"
+        android:src="@drawable/cv_tru_btv_65_hhuu" />
+     <ImageButton
+        android:id="@+id/imb_tru_btv_65_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btv_65_slap"
+        android:src="@drawable/cv_tru_btv_65_slap" />
+      <ImageButton
+        android:id="@+id/imb_tru_btv_75_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btv_75_hhuu"
+        android:src="@drawable/cv_tru_btv_75_hhuu" />
+     <ImageButton
+        android:id="@+id/imb_tru_btv_75_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btv_75_slap"
+        android:src="@drawable/cv_tru_btv_75_slap" />
+    <ImageButton
+        android:id="@+id/imb_tru_btv_85_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btv_85_hhuu"
+        android:src="@drawable/cv_tru_btv_85_hhuu" />
+     <ImageButton
+        android:id="@+id/imb_tru_btv_85_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_btv_85_slap"
+        android:src="@drawable/cv_tru_btv_85_slap" />
+     <ImageButton
+        android:id="@+id/imb_tru_go_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_go_hhuu"
+        android:src="@drawable/cv_tru_go_hhuu" />
+     <ImageButton
+        android:id="@+id/imb_tru_go_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_go_slap"
+        android:src="@drawable/cv_tru_go_slap" />
+      <ImageButton
+        android:id="@+id/imb_tru_nhom_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_nhom_hhuu"
+        android:src="@drawable/cv_tru_nhom_hhuu" />
+     <ImageButton
+        android:id="@+id/imb_tru_nhom_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tru_nhom_slap"
+        android:src="@drawable/cv_tru_nhom_slap" />
+    
+
+</LinearLayout>

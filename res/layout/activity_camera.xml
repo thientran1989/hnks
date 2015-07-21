@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <hnks.kitsoft.vn.dokhoangcach.CameraPreview
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:onClick="onCaptureClick"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/chupanh" />
+
+    <view
+        android:id="@+id/mycompass"
+        android:layout_width="112dp"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        class="hnks.kitsoft.vn.dokhoangcach.Compass" />
+
+    <view
+        android:id="@+id/imageview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="hnks.kitsoft.vn.dokhoangcach.Direction" />
+
+    <TextView
+        android:id="@+id/tv_live_angle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Đang chờ..."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+
+</FrameLayout>

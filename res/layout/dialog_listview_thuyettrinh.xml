@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mau_nen" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edt_ghichu_dialog_thuyettrinh"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:ems="10" 
+            android:paddingRight="70dp"
+            android:gravity="top"/>
+
+        <ListView
+            android:id="@+id/lv_ghichu_dialog_thuyettrinh"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:background="@color/mau_nen" >
+        </ListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ok_dialog_thuyettrinh"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="Xong"
+        android:background="@drawable/roud_button_ok"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/white"
+         />
+
+</FrameLayout>

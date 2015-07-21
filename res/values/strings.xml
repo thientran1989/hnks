@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="ngay_build">Đã sửa : 9H 05/03/2015</string>
+    
+     <string name="pt_nc">Hệ số Nhân Công(NC)</string>
+     <string name="pt_ncbs">Hệ số Nhân Công Bổ sung (NC1)</string>
+     <string name="pt_chung">Tỉ lệ % Chi Phí Chung(C)</string>
+     <string name="pt_chungbs">Tỉ lệ % Chi Phí Chung Bổ sung (NC1)</string>
+     <string name="pt_tl">Tỉ lệ % thu nhập chịu thuế(TL)</string>
+     <string name="pt_k">Tỉ lệ % xác minh lập chiết tính(K)</string>
+     <string name="pt_vat">Tỉ lệ % thuế (VAT)</string>
+     <string name="pt_tt">Tỉ lệ % Trực Tiếp Khác(TT)</string>
+    
+     <string name="nhom">Nhóm</string>
+    <string name="ten_vattu">Tên vật tư</string>
+    <string name="don_vi_tinh">Đơn vị tính</string>
+    <string name="ma_Loai_cp">Loại CP (Vật tư hay nhân công)</string>
+    <string name="hoan_tat">HOÀN TẤT</string>
+    <string name="dongia_tg">Giá trọn gói</string>
+    
+    <string name="tieude">Tiêu đề</string>
+    <string name="cancu">Căn cứ</string>
+    
+    <string name="chucvu1">Chức vụ 1</string>
+    <string name="chucvu2">Chức vụ 2</string>
+    <string name="chucvu3">Chức vụ 3</string>
+    <string name="chucvu4">Chức vụ 4</string>
+    <string name="chucvu5">Chức vụ 5</string>
+    
+    <string name="nguoiky1">Người ký 1</string>
+    <string name="nguoiky2">Người ký 2</string>
+    <string name="nguoiky3">Người ký 3</string>
+    <string name="nguoiky4">Người ký 4</string>
+    <string name="nguoiky5">Người ký 5</string>
+    
+    <string name="cham_de_tai">Chạm để tải</string>
+    <string name="cham_de_cauhinh">Chạm để cấu hình</string>
+    <string name="cauhinh_chuky">CẤU HÌNH CHỮ KÝ</string>
+    
+    <string name="ds_vattu">DANH SÁCH VẬT TƯ</string>
+    <string name="cauhinh_heso">CẤU HÌNH HỆ SỐ</string>
+    
+    <string name="kiemtra_maychu">Kiểm tra máy chủ</string>
+    <string name="alert_not_connect_server">Không kết nối được server</string>
+    <string name="alert_nhan_du_lieu_thanh_cong"> Nhận dữ liệu thành công</string>
+    <string name="alert_dang_thu_ket_noi_server">Đang thử kết nối server</string>
+    <string name="alert_dang_lay_du_lieu">Đang lấy dữ liệu, xin chờ</string>
+    <string name="alert_gui_thanh_cong">Gửi dữ liệu thành công !</string>
+    <string name="alert_thietlap_thanhcong">Thiết lập kết nối thành công !</string>
+    <string name="alert_thong_bao">THÔNG BÁO !</string>
+    <string name="cai_dat">CÀI ĐẶT</string>
+    <string name="ds_khachhang">DANH SÁCH KS</string>
+    <string name="xem_vattu">XEM MẪU VẬT TƯ</string>
+    <string name="lay_dulieu">LẤY DỮ LIỆU MỚI</string>
+    <string name="thongtin_kh">THÔNG TIN KH</string>
+    <string name="chiphi_kh">CHI PHÍ KH</string>
+    <string name="chiphi_dl">CHI PHÍ ĐIỆN LỰC</string>
+    <string name="chi_kh_tulo">KHÁCH HÀNG TỰ LO</string>
+    <string name="lay_toado">Lấy tọa độ</string>
+    <string name="hinh_anh">HÌNH ẢNH</string>
+    <string name="chiet_tinh">CHIẾT TÍNH</string>
+    <string name="gui_ho_so">GỬI HỒ SƠ</string>
+    <string name="diem">Điểm</string>
+    <string name="so_diem">Số điểm</string>
+    <string name="app_name">KS Ha Noi</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="them">Thêm</string>
+    <string name="luu">Lưu</string>
+    <string name="gps">GPS</string>
+    <string name="photo">Photo</string>
+    <string name="vattu">Vật Tư</string>
+    <string name="madonvi">Mã Đơn Vị</string>
+    <string name="ipserver">IP Server :</string>
+    <string name="iplocal">IP Local :</string>
+    <string name="huy">Huỷ</string>
+    <string name="ok">OK</string>
+    <string name="thoat">Thoát</string>
+    <string name="timkiem">Tìm Kiếm</string>
+    <string name="sotien">Số Tiền :</string>
+    <string name="ghichu">Ghi Chú :</string>
+    <string name="sodienthoai">Số Điện Thoại :</string>
+    <string name="mayeucau">Mã Yêu Cầu  :</string>
+    <string name="soluong">Số Lượng  :</string>
+    <string name="loaikhachhang">Loại Khách Hàng  :</string>
+    <string name="loaipha">Loại Điện Kế  :</string>
+    <string name="caidat">Cài Đặt</string>
+    <string name="donggia">Đơn Giá :</string>
+    <string name="laygps">Lấy GPS</string>
+    <string name="xembando">Xem Bản Đồ</string>
+    <string name="tongtien">Tổng Tiền :</string>
+    <string name="tienvatlieu">1. Chi phí Vật Liệu (VL):</string>
+    <string name="tiennhancong">2. Chi phí Nhân Công (NC):</string>
+    <string name="tienvanchuyen">Chi phí Vận Chuyển (VC):</string>
+    <string name="tienthicong">3. Chi phí máy thi công (M):</string>
+    <string name="chiphitructiepkhac">4. Chi phí trực tiếp khác (TT) :</string>
+    <string name="chiphitructiep">I. Chi phí trực tiếp (T) :</string>
+    <string name="chiphichung">II. chi phí chung C :</string>
+    <string name="thunhapchiuthuetinhtruoc">III. Thu nhập chịu thuế tính trước (TL) :</string>
+    <string name="khaosatvalapchiettinh">IV. khảo sát và lập chiết tính (K) :</string>
+    <string name="giatrichiettinhtruocthue"> Giá trị chiết tính trước thuế (Gtt) :</string>
+    <string name="thuegiatrigiatang">V. Tổng huế giá trị gia tăng (VAT) :</string>
+    <string name="tonggiatri">TỔNG GIÁ TRỊ (G) :</string>
+    <string name="loaichiphi"> LOẠI CHI PHÍ</string>
+    <string name="dienluc">ĐIỆN LỰC</string>
+    <string name="khachhang">KHÁCH HÀNG</string>
+    <string name="hoantat">Hoàn Tất</string>
+    <string name="capnhatthongtin">Cập Nhật Thông Tin Hồ Sơ</string>
+    <string name="tentrambienap">Tên trạm biến áp</string>
+    <string name="matram">Mã trạm</string>
+    <string name="dia_chi_gan_dien">Địa chỉ gắn điện</string>
+    <!-- cap nhat thong tin mo rong -->
+    <string name="congsuattram">CS Trạm (KVA)</string>
+    <string name="dongdiendinhmuc">DĐ định mức (A)</string>
+    <string name="pha_a">Pha A</string>
+    <string name="pha_b">Pha B</string>
+    <string name="pha_c">Pha C</string>
+    <string name="taimax">Tải max (A)</string>
+    <string name="loaitai">Loại Tải :</string>
+    <string name="phu_tai">Phụ Tải :</string>
+    <string name="phu_tai_a">Phụ tải A</string>
+    <string name="phu_tai_b">Phụ tải B</string>
+    <string name="phu_tai_c">Phụ tải C</string>
+    <string name="kva">kVA</string>
+    <string name="a">A</string>
+    <string name="m">m</string>
+    <string name="v">V</string>
+    <string name="pha">Pha</string>
+    <string name="vitritreocongto">Vị trí treo công tơ</string>
+    <string name="trongnha">Trong Nhà</string>
+    <string name="ngoaitru">Ngoài Trụ</string>
+    <string name="truso">Trụ Số</string>
+    <string name="khoangcachtucongtolapdatdentrambienap">Khoảng cách từ CT lắp đặt đến trạm biến áp (m) :</string>
+    <string name="khoangcachtucongtolapdatdentrucluoihathe">Khoảng cách từ CT lắp đặt đến trục lưới hạ thế (m) :</string>
+    <string name="congsuatdatthietbithucte">Công suất sử dụng thực tế (Kw)</string>
+    <string name="kw">Kw</string>
+    <string name="tuongungvoi">Tương ứng với (A) :</string>
+    <string name="congtolienke2ben">Danh số liền kề 2 bên</string>
+    <string name="stttrai">Danh số liền kề 2 bên trái</string>
+    <string name="sttphai">Danh số liền kề 2 bên phải</string>
+    <string name="tinhtrangnoidenghimuadien">Tình trạng nơi đề nghị mua điện</string>
+    <string name="khongcocongto">Không có công tơ</string>
+    <string name="cocongto">Có công tơ</string>
+    <string name="dungchung">Dùng Chung</string>
+    <string name="rieng">Riêng</string>
+    
+    <string name="makhachhang_pe">Mã khách hàng PB :</string>
+    <string name="ketquakhaosat">8. KẾT QUẢ KHẢO SÁT :</string>
+    <string name="khongtrongai">Không Trở ngại</string>
+    <string name="trongai"> Trở ngại</string>
+    <string name="lydo"> Lý Do :</string>
+    <string name="x">X = </string>
+    <string name="y"> Y = </string>
+    <string name="tenkhachhang_ks">Tên KH_khảo sát</string>
+    <string name="diachikhachhang_ks">Địa chỉ KH_khảo sát </string>
+    <string name="sodienthoai_ks">Số ĐT_khảo sát</string>
+    <string name="start_new">New</string>
+    <string name="brush">Brush</string>
+    <string name="erase">Erase</string>
+    <string name="save">Save</string>
+    <string name="paint">Paint</string>
+    <string name="sml">Small</string>
+    <string name="med">Medium</string>
+    <string name="lrg">Large</string>
+    <string name="free">Free</string>
+    <string name="line">Line</string>
+    <string name="twoline">2 Line</string>
+    <string name="tron">Circle</string>
+    <string name="move">Move</string>
+    <string name="text">Text</string>
+    <string name="rec">Rec</string>
+    <string name="chupanh"> Chụp ảnh</string>
+    <string name="vesodo"> Vẽ sơ đồ</string>
+    <string name="dokhoangcach">Đo đạc</string>
+    <string name="mahoso">Mã hồ sơ :</string>
+    <string name="diachi">Địa chỉ :</string>
+    <string name="tenkhachhang">Tên khách hàng :</string>
+    <string name="chon">Chọn</string>
+    <string name="gui">Gửi</string>
+    <string name="mavattu">Mã vật tư : </string>
+    <string name="dinhmuc">Định mức : </string>
+    <string name="so_nha_ks"> Số nhà khảo sát : </string>
+    <string name="duong_pho_ks"> Đường phố khảo sát : </string>
+    <string name="ve_tinh"> Vệ Tinh</string>
+    <string name="ngay_yeu_cau"> Ngày yêu cầu :</string>
+    <string name="hien_danh_sach"> Hiện danh sách</string>
+    <string name="maso_stt"> Mã Sổ / Danh số :</string>
+    <string name="len">lên</string>
+    <string name="xuong">xuống</string>
+    <string name="trai">trái</string>
+    <string name="phai">phải</string>
+    <string name="so_ho">Số Hộ </string>
+    <string name="xong">Xong</string>
+    <string name="chon_vattu">Chọn VTƯ</string>
+    <string name="ko_ho_tro_thao">Không hỗ trợ tháo</string>
+    <string name="ko_co_lk">Không có liên kết</string>
+    <string name="chua_co_thong_tin">Chúng tôi chưa có thông tin về toạ độ !</string>
+    <string name="da_ks">Đã Khảo Sát</string>
+    <string name="chua_ks">Chưa Khảo Sát</string>
+    <string name="xoa_het">Xoá\nhết</string>
+    <string name="xoa_het_ngang">Xoá hết</string>
+    <string name="xoa_diem_dang_chon">Bạn có muốn xoá điểm đang chọn không ?</string>
+    <string name="xoa_tat_ca_diem">Bạn có muốn xoá tất cả điểm không ?</string>
+    <string name="xoa_vattu_dang_chon">Bạn có muốn xoá vật tư đang chọn không ?</string>
+    <string name="xoa_mau_dang_chon">Bạn có muốn xoá mẫu </string>
+    <string name="khong_"> không ?</string>
+    <string name="luu_toa_do">Lưu toạ độ</string>
+    <string name="ma_tram">Mã trạm :</string>
+    <string name="ten_tram">Tên trạm :</string>
+    <string name="cs_tram">Công suất trạm :</string>
+    <string name="dinh_danh">Định Danh :</string>
+    <string name="dong_dien">Dòng điện :</string>
+    <string name="he_so_ht">Hệ số hiện tại</string>
+    <string name="ds_heso">Danh sách hệ số</string>
+    <string name="PT_TT">PT_TT :</string>
+    <string name="PT_C">PT_C :</string>
+    <string name="PT_TL">PT_TL :</string>
+    <string name="PT_K">PT_K :</string>
+    <string name="PT_VAT">PT_VAT :</string>
+    <string name="PT_NC">PT_NC :</string>
+    <string name="PT_C1">PT_C1 :</string>
+    <string name="PT_NC1">PT_NC1 :</string>
+    <string name="ve">Vẽ</string>
+    <string name="lay_du_lieu">Lấy thông tin</string>
+<!--      <string name="back">&lt;</string> -->
+    <string name="back">Trở\nlại</string>
+    <!-- dang nhap -->
+    <string name="ten_dang_nhap">Tên đăng nhập (user name)</string>
+    <string name="mat_khau">Mật khẩu (Password)</string>
+    <string name="nhap_mat_khau_ban">Nhập mật khẩu của bạn</string>
+    <string name="nhap_ten_dang_nhap_ban">Nhập tên đăng nhập của bạn</string>
+    <string name="nhap_mat_khau">Nhập mật khẩu</string>
+    <!-- tab chi phi -->
+    <string name="vat_tu_da_chon">Vật tư đã chọn</string>
+    <string name="khong_co_vtu_lk">Không có vật tư liên kết</string>
+    <string name="khong_co_ncong_lk">Không có nhân công liên kết</string>
+    <string name="tat_ca_nhom">Tất cả nhóm</string>
+    <string name="chon_mau">Chọn mẫu</string>
+    <string name="tim_kiem_vat_tu">Tìm kiếm vật tư</string>
+    <string name="tim_kiem_mau_ve">Tìm kiếm mẫu vẽ</string>
+    <!-- tab thong tin -->
+    <string name="dien_giai">Diễn giải (thuyết trình) :</string>
+    <string name="dien_giai_hint">Diễn giải phương án cấp điện</string>
+	
+    <!-- cap nhat ho so -->
+    <string name="phan_loai_xay_dung">Phân loại xây dựng :</string>
+    <string name="loai_nha">Loại nhà :</string>
+    
+    <string name="tram_bien_ap">1. TRẠM BIẾN ÁP</string>
+    <string name="tai">2. TẢI</string>
+    <string name="cong_to">3. DANH SỐ</string>
+    <string name="khoang_cach">4. KHOẢNG CÁCH</string>
+    <string name="cong_suat">5. CÔNG SUẤT</string>
+    <string name="mucdichsudungdien">6. MỤC ĐÍCH SỬ DỤNG ĐIỆN</string>
+    <string name="tinh_trang">7. TÌNH TRẠNG</string>
+    <string name="ket_qua">8. KẾT QUẢ</string>
+    <string name="cong_suat_de_nghi">Công suất đề nghị</string>
+    <string name="de_nghi_duong_day">9. CÁC ĐỀ NGHỊ ĐỐI VỚI ĐƯỜNG DÂY PHÍA SAU THIẾT BỊ BẢO VỆ</string>
+    <string name="dv_thi_cong">Đơn vị thi công</string>
+    <string name="dv_thiet_ke">Đơn vị thiết kế</string>
+    <string name="dv_cap_vattu">Đơn vị cấp vật tư</string>
+    
+    <!-- tab ban do -->
+    <string name="xoa_het_diem">Bạn có muốn xoá hết điểm đã lưu không ?</string>
+    <string name="da_xoa_het_diem">Đã xoá hết điểm !</string>
+    <!-- giao dien khach hang -->
+    <string name="ve_so_do">VẼ SƠ ĐỒ</string>
+    <string name="toado_Kh">TOẠ ĐỘ KH</string>
+
+    <!-- ve so do -->
+    <string name="luu_lai">Lưu hình</string>
+    <string name="luu_mau">Lưu mẫu</string>
+    <!-- cap nhat ho so -->
+    <string name="cap_nhat_thong_tin_khac">thông tin khác </string>
+    <string name="chi_duong">Chỉ đường</string>
+    <string name="he_so">Hệ số</string>
+    <!-- row -->
+    <string name="sua">Sửa</string>
+    <string name="sua_ten">Sửa tên</string>
+    <string name="xoa">Xoá</string>
+    <string name="khao_sat">Khảo sát</string>
+    <string name="chon_tram">Chọn</string>
+    <string name="ks">KS</string>
+    <string name="ma_vattu"> Mã vật tư :</string>
+    <string name="gia_vattu">Giá vật tư :</string>
+    
+    
+
+    <!-- alert -->
+    <string name="them_thanh_cong">Thêm thành công !</string>
+    <string name="them_ko_thanh_cong">Thêm không thành công !</string>
+    <string name="sua_thanh_cong">Sửa thành công !</string>
+    <string name="sua_ko_thanh_cong">Sửa không thành công !</string>
+    <string name="xoa_thanh_cong">Xóa thành công !</string>
+    <string name="xoa_ko_thanh_cong">Xóa không thành công !</string>
+    <string name="xoa_het_thanh_cong">Đã xóa hết vật tư !</string>
+    <string name="xoa_hinh_dang_chon">Bạn có muốn xoá hình đang chọn không ?</string>
+    <string name="chon_thanh_cong">Chọn thành công !</string>
+    <string name="da_chon_roi">Đã chọn rồi !</string>
+    <string name="xoa_truoc_khi_chon_mau">Xóa hết vật tư trước khi chọn mẫu !</string>
+    <string name="chon_mau_ko_chinh_xac">Chọn mẫu không chính xác!</string>
+    <string name="loi_chon_vat_tu">Lỗi chọn vật tư !</string>
+    <string name="loi_sua_vat_tu">Lỗi sửa vật tư !</string>
+    <string name="chua_nhap_pass">Chưa có username hay mật khẩu !</string>
+    <string name="khong_co_ket_noi">Không có kết nối mạng !</string>
+    <string name="khong_nhap_qua">Không nhập quá </string>
+    <string name="ky_tu">ký tự !</string>
+
+    <!-- dialog -->
+    <string name="canh_bao">Cảnh báo !</string>
+    <string name="co">Có</string>
+    <string name="khong">Không</string>
+    <string name="dat_ten">Đặt tên</string>
+    <string name="nhap_ten_diem">Nhập tên điểm</string>
+    <string name="xoa_tat_ca_vattu">Bạn có muốn xoá tất cả vật tư đã chọn không ?</string>
+    <string name="xoa_tat_ca_hinh">Bạn có muốn xoá tất cả hình đã chụp không ?</string>
+    <string name="xoa_tat_ca_so_do">Bạn có muốn xoá tất cả sơ đồ không ?</string>
+    <string name="ban_co_muon_thoat">Bạn có muốn thoát khỏi chương trình không ?</string>
+    <string name="xoa_ho_so_chon">Bạn có muốn xoá hồ sơ </string>
+    <string name="ban_co_muon_luu_mau">Bạn có muốn lưu lại mẫu này không ?</string>
+    
+    <string name="ko">không ? </string>
+    <string name="sua_duong_pho">Sửa đường phố</string>
+    <string name="sua_ghi_chu">Sửa ghi chú</string>
+    <string name="sua_so_ho">Sửa số hộ</string>
+    <string name="sua_so_nha">Sửa số nhà</string>
+    <string name="sua_so_dt">Sửa số điện thoại</string>
+    <string name="sua_ten_kh">Sửa tên khách hàng</string>
+    <string name="sua_dc_gandien">Sửa địa chỉ gắn điện</string>
+    <string name="sua_thuyet_trinh">Sửa thuyết trình</string>
+    <string name="danh_sach_tram">Danh sách trạm</string>
+    <string name="xac_nhan">Xác nhận</string>
+    <string name="ban_co_muon_luu_so_do">Bạn có muốn lưu sơ đồ này không ?</string>
+    <string name="tat_ca">Tất cả</string>
+    <string name="da_khao_sat">Đã khảo sát</string>
+    <string name="chua_khao_sat">Chưa khảo sát</string>
+    <string name="dang_khao_sat">Đang khảo sát</string>
+
+    <!-- cai dat -->
+    <string name="kiem_tra_ip">Kiểm tra lại IP</string>
+    <string name="tai_phan_mem">TẢI PHẦN MỀM</string>
+    
+    <!-- kw2A -->
+     <string name="reset">Nhập lại</string>
+    <string name="pf">PF (%)</string>
+    <string name="vol">Vol</string>
+    <string name="loai_pha">Loại Pha</string>
+    <string name="tinh_toan">Tính toán</string>
+    <string name="cong_suat_kw2a">Công suất (Kw)</string>
+    <string name="mot_pha">1 Phase (220V)</string>
+    <string name="ba_pha">3 Phase (380V)</string>
+    <string name="pf_lon_hon_khong_nho_hon_tram">PF phải lớn hơn 0 và nhỏ hơn 100</string>
+    <string name="ket_qua_kw2a">Kết quả (A)</string>
+    <string name="dong">Đóng</string>
+     <string name="huong_dan_xem_ketqua">Click vào hình ngôi sao để xem những kết quả gần đây !</string>
+
+    <!-- muc dich su dung -->
+    <string name="MD_thap_sang_sinh_hoat">Thắp sáng sinh hoạt</string>
+    <string name="MD_kinh_doanh">Kinh Doanh</string>
+    <string name="MD_san_xuat">Sản xuất</string>
+    <string name="MD_co_quan_hanh_chinh">Cơ quan hành chính sự nghiệp</string>
+    <string name="MD_truong_hoc_benh_vien">Trường học, Bệnh viện</string>
+    <string name="MD_chieu_sang_cong_cong">Chiếu sáng công cộng</string>
+    <string name="MD_dich_vu">Dịch vụ</string>
+    <string name="MD_bom_nuoc_tuoi_tieu">bơm nước tưới tiêu</string>
+    <!-- ly do -->
+    <string name="LD_kh_vang">Khách hàng vắng nhà</string>
+    <string name="LD_ko_thay_dia_chi">Không tìm thấy địa chỉ</string>
+    <string name="LD_nha_chua_xay_xong">Nhà xây chưa xong</string>
+
+    <!-- loai ho so -->
+    <string name="LHS_cmnd">Chứng minh nhân dân</string>
+    <string name="LHS_giay_to_dat">Giấy tờ đất</string>
+    <string name="LHS_hop_dong_thue_nha">Hợp đồng thuê nhà</string>
+    <string name="LHS_xac_nhan_so_ho">Xác nhận số hộ</string>
+    <string name="LHS_bien_ban_ap_gia">Biên bản áp giá</string>
+    <string name="LHS_liet_ke_thiet_bi">Bảng liệt kê thiết bị sử dụng điện</string>
+    <!-- vi tri -->
+    <string name="VT_diem_dau_noi">Điểm đấu nối</string>
+    <string name="VT_vi_tri_tru">Vị trí trụ</string>
+    <string name="VT_vi_tri_tram">Vị trí trạm</string>
+    <string name="VT_diem_treo_cong_to">Điểm treo công tơ</string>
+    
+    <!-- vi tri treo -->
+    <string name="VTT_ngoai_tru">Ngoài trụ</string>
+    <string name="VTT_trong_nha">Trong nhà</string>
+    <string name="VTT_trong_nha_hanh_lang">Trong nhà - hành lang</string>
+    <string name="VTT_trong_nha_mai_hien">Trong nhà - mái hiên</string>
+    
+    <!-- loai xay dung -->
+    <string name="LXD_cap_1">Nhà cấp 1</string>
+    <string name="LXD_cap_2">Nhà cấp 2</string>
+    <string name="LXD_cap_3">Nhà cấp 3</string>
+    <string name="LXD_cap_4">Nhà cấp 4</string>
+    <string name="LXD_cap_5">Nhà cấp 5</string>
+    <string name="LN_la">Nhà lá</string>
+    <string name="LN_go">Nhà gỗ</string>
+    <string name="LN_tuong">Nhà tường</string>
+    <string name="LN_cao_tang">Nhà cao tầng</string>
+    <!-- mau vat tu -->
+    <string name="MVT_khach_hang_sinh_hoat">Khách hàng sinh hoạt</string>
+    <string name="MVT_dien_luc_cap">Điện lực cấp</string>
+    <string name="MVT_khach_hang_treo_tru">Khách hàng treo trụ</string>
+    <string name="MVT_khach_hang_3_pha">Khách hàng 3 pha</string>
+    
+    <string name="tim_kiem_ho_so">Tìm kiếm hồ sơ</string>
+    
+    <!-- tai phan mem -->
+    <string name="tai_ksct_noi_bo">Tải phần mềm Khảo Sát - mạng nội bộ</string>
+    <string name="tai_ksct_noi_bo_dg">Tải phần mềm Khảo Sát cho máy tính bảng khi sử dụng mạng nội bộ</string>
+    <string name="tai_ksct_ngoai">Tải phần mềm Khảo Sát - mạng ngoài</string>
+    <string name="tai_ksct_ngoai_dg">Tải phần mềm Khảo Sát cho máy tính bảng khi sử dụng wifi ngoài cơ quan hay 3G</string>
+    <string name="tai_ban_phim">Tải bàn phím tiếng việt</string>
+    <string name="tai_ban_phim_dg">Tải bàn phím hỗ trợ gõ Tiếng Việt</string>
+    <string name="tai_google_play">Nâng cấp Google Play Servive</string>
+    <string name="tai_google_play_dg">Nâng cấp Google Play Servive khi không load được bản đồ do phiên bản cũ</string>
+    
+    <!-- thuyet trinh -->
+    <string name="TT_1">Cáp CVV phần trước và sau điện kế được buộc lại với nhau bằng băng keo cách điện (giữa 2 sợi cáp) và cố định vào trụ bằng dây kẽm 2,4mm. Bụng cáp được uốn cong hợp lý, chiều dài khoảng bụng từ 0,4m đến 0,5m.
+- Tổ điện kế kiểm tra nhánh dây từ điện kế lên đến đầu trụ đảm bảo kỹ thuật trước khi đóng điện.
+- Biện pháp an toàn: Không cắt điện, khi leo trụ tránh tiếp xúc với dây câu phụ của khách hàng và sử dụng găng tay cách điện khi đấu nối.
+</string>
+    <string name="TT_2">- Điện kế khách hàng được đặt tại vị trí số 01 trong hộp nhựa compositte 4 điện kế, điện kế dự định tại trụ BTLT 8,4m, số trụ : P.Nhơn 4/004
+- Thực hiện lắp đặt cáp CVV 2x16mm2 từ lưới hạ áp đến đômino đồng thời đấu từ đômino đến điện kế và từ công tơ đến CB bằng dây đồng bọc CV 6mm2.
+- Đáy hộp nhựa compositte lắp cao so với nền đất là 2,5m (lắp ở tầng thứ 01), Phần cáp trước điện kế đấu vào pha A.
+- Lắp đặt dây đai inox để cố định nắp thùng composit theo thiết kế mẫu đã được phê duyệt theo văn bản số 445 ngày 15/5/2013.
+</string>
+    <string name="TT_3">- Vị trí lắp rack: Thấp hơn Rack hiện hữu và nằm phái bên phải Rack hiện hữu.
+- Một dây (dây pha) của cáp Muller 2x6mm2 (kho hết cáp CVV 2x6mm2 )được đấu vào CB(hiện tại trong kho có CB 1 pha 20A là thấp nhất) , dây còn lại( dây trung tính) được đấu trực tiếp vào đômino của thùng điện kế và được kéo lên rack 2 sứ để kéo về nơi khách hàng sử dụng.
+</string>
+    <string name="TT_4">- Nhánh dây sau điện kế dự định kéo từ trụ lắp đặt điện kế về nhà do khách hàng tự đầu tư, tự thực hiện thi công theo đúng hướng dẫn về an toàn trong sử dụng điện của Điện Lực và thường xuyên kiểm tra, khắc phục các hư hỏng có nguy cơ rò điện gây tai nạn. Nếu khách hàng không thực hiện theo đúng hướng dẫn an toàn điện của Điện Lực để xảy ra tai nạn điện trong dân thì khách hàng phải chịu hoàn toàn trách nhiệm trước pháp luật. 
+</string>
+
+</resources>

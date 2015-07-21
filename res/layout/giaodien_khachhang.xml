@@ -1,0 +1,587 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/xam_100"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@color/cam_100"
+                        android:onClick="to_intent_thongtin"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/thongtin_kh"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/cyan_line_row"
+                            android:background="@color/cyan" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.9"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp" >
+
+                            <TextView
+                                android:id="@+id/tv_ten_kh_giaodienkh"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Large Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <TextView
+                                android:id="@+id/tv_diachi_kh_giaodienkh"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                            <EditText
+                                android:id="@+id/edt_LOAIHS"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:focusable="false"
+                                android:hint="Loại hồ sơ" >
+                            </EditText>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right|center"
+                            android:paddingRight="5dp" >
+
+                            <TextView
+                                android:id="@+id/tv_tt_xong_giaodien_khachhang"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:paddingRight="5dp"
+                                android:textColor="@color/red" />
+
+                            <ImageView
+                                android:id="@+id/iv_tt_xong_giaodien_khachhang"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_check"
+                                android:onClick="thay_doi_tt_xong" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/white_line_giaodien"
+                        android:layout_height="match_parent"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@color/vang_100"
+                        android:onClick="to_gui_ho_so"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="@string/gui_ho_so"
+                                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/cyan_line_row"
+                                    android:background="@color/cyan" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.9"
+                                android:gravity="center"
+                                android:orientation="vertical" >
+
+                                <ImageView
+                                    android:id="@+id/imageView6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_action_upload" />
+
+                                <TextView
+                                    android:id="@+id/tv_tinhtrang_gui_giaodien_khachhang"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Medium Text"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                                    android:textColor="@color/red"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+						<View
+                        android:layout_width="@dimen/white_line_giaodien"
+                        android:layout_height="match_parent"
+                        android:background="@color/white" />
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:orientation="vertical"
+                            android:onClick="to_intent_chiettinh" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="@string/chiet_tinh"
+                                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/cyan_line_row"
+                                    android:background="@color/cyan" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.9"
+                                android:gravity="center"
+                                android:orientation="vertical" >
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_cal" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/white_line_giaodien"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@color/hong_200"
+                        android:onClick="to_intent_chiphidl"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/chiphi_dl"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/cyan_line_row"
+                            android:background="@color/cyan" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.9"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:paddingTop="5dp" >
+
+                            <TextView
+                                android:id="@+id/tv_sl_cpdl_giaodien_kh"
+                                android:layout_width="@dimen/button_round_small_size"
+                                android:layout_height="@dimen/button_round_small_size"
+                                android:background="@drawable/roud_button_so_luong"
+                                android:text="0"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/teal_900"
+                                android:typeface="normal"
+                                android:gravity="center" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" 
+                            android:gravity="center"
+                            android:paddingBottom="5dp">
+
+                            <TextView
+                                android:id="@+id/tv_tien_dienluc_giaodien_khachhang"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="5dp"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium" 
+                                android:textColor="@color/red"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/white_line_giaodien"
+                        android:layout_height="match_parent"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:id="@+id/Button02"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@color/hong_200"
+                        android:onClick="to_intent_chiphikh"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/chiphi_kh"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/cyan_line_row"
+                            android:background="@color/cyan" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.9"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:paddingTop="5dp" >
+                            <TextView
+                                android:id="@+id/tv_sl_cpkh_giaodien_kh"
+                                android:layout_width="@dimen/button_round_small_size"
+                                android:layout_height="@dimen/button_round_small_size"
+                                android:background="@drawable/roud_button_so_luong"
+                                android:text="0"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/teal_900"
+                                android:typeface="normal"
+                                android:gravity="center" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:paddingBottom="5dp" >
+
+                            <TextView
+                                android:id="@+id/tv_tien_khachhang_giaodien_khachhang"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="5dp"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium" 
+                                android:textColor="@color/red"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/white_line_giaodien"
+                        android:layout_height="match_parent"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@color/hong_200"
+                        android:onClick="to_intent_chiphikhtl"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/chi_kh_tulo"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/cyan_line_row"
+                            android:background="@color/cyan" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.9"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:paddingTop="5dp" >
+                            
+                            <TextView
+                                android:id="@+id/tv_sl_cpkhtd_giaodien_kh"
+                                android:layout_width="@dimen/button_round_small_size"
+                                android:layout_height="@dimen/button_round_small_size"
+                                android:background="@drawable/roud_button_so_luong"
+                                android:text="0"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/teal_900"
+                                android:typeface="normal"
+                                android:gravity="center" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:paddingBottom="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="5dp"
+                                android:textAppearance="?android:attr/textAppearanceMedium" 
+                                android:textColor="@color/red"/>
+
+                        </LinearLayout>
+
+                        
+                        
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/white_line_giaodien"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@color/cam_100"
+                        android:onClick="to_intent_toado"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/toado_Kh"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/cyan_line_row"
+                            android:background="@color/cyan" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:paddingTop="5dp" >
+                            <TextView
+                                android:id="@+id/tv_sl_toado_giaodien_kh"
+                                android:layout_width="@dimen/button_round_small_size"
+                                android:layout_height="@dimen/button_round_small_size"
+                                android:background="@drawable/roud_button_so_luong"
+                                android:text="0"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/teal_900"
+                                android:typeface="normal"
+                                android:gravity="center" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center" >
+
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_action_location_found" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/white_line_giaodien"
+                        android:layout_height="match_parent"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@color/cam_100"
+                        android:onClick="to_intent_hinhanh"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/hinh_anh"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/cyan_line_row"
+                            android:background="@color/cyan" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:paddingTop="5dp" >
+                            <TextView
+                                android:id="@+id/tv_sl_hinhanh_giaodien_kh"
+                                android:layout_width="@dimen/button_round_small_size"
+                                android:layout_height="@dimen/button_round_small_size"
+                                android:background="@drawable/roud_button_so_luong"
+                                android:text="0"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/teal_900"
+                                android:typeface="normal"
+                                android:gravity="center" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center" >
+
+                            <ImageView
+                                android:id="@+id/imageView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_action_picture" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/white_line_giaodien"
+                        android:layout_height="match_parent"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@color/cam_100"
+                        android:onClick="to_intent_ve_sodo"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/ve_so_do"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/cyan_line_row"
+                            android:background="@color/cyan" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.9"
+                            android:orientation="vertical"
+                            android:gravity="center" >
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_paint" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

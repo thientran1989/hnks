@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mau_nen"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/color_big_title"  >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tinh_trang"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tinhtrangnoidenghimuadien"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/chk_KHONG_CONG_TO_ho_so_khao_sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/khongcocongto" />
+
+        <CheckBox
+            android:id="@+id/chk_CO_CONG_TO_ho_so_khao_sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cocongto" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup_TINHTRANG_CONGTO_ho_so_khao_sat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rdo_DUNGCHUNG_ho_so_khao_sat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:checked="true"
+                android:text="@string/dungchung" />
+
+            <RadioButton
+                android:id="@+id/rdo_DUNGRIENG_ho_so_khao_sat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:text="@string/rieng" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/makhachhang_pe"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textStyle="bold"  />
+
+            <EditText
+                android:id="@+id/edt_MA_KHACHHANG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="false" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        
+    </LinearLayout>
+
+</LinearLayout>

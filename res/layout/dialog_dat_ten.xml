@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:gravity="left|center"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+         
+        <!-- This is for the info image -->
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@android:drawable/ic_menu_info_details" />
+ 
+        <!-- Title -->
+
+        <TextView
+            android:id="@+id/tvmessagedialogtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dip"
+            android:layout_weight="0.01"
+            android:padding="8dp"
+            android:text="@string/dat_ten"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#343434"
+            android:textStyle="normal"
+            android:typeface="normal" />
+
+        <LinearLayout
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:orientation="vertical"
+             >
+
+            <Button
+                android:id="@+id/btn_yes_dialog_datten"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/roud_button_ok"
+                android:text="@string/ok"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:typeface="normal"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+ 
+    <!-- Underline with this bluish color -->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#09adb9" />
+ 
+    <!-- The message -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9" >
+
+         <EditText
+             android:id="@+id/edt_ten_dialog_datten"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:ems="10"
+             android:gravity="top"
+             android:hint="@string/nhap_ten_diem"
+             android:inputType="textMultiLine" />
+
+         <Button
+             android:id="@+id/btn_get_data_dialog_datten"
+             android:layout_width="@dimen/button_round_large_size"
+             android:layout_height="@dimen/button_round_large_size"
+             android:text="+"
+             android:layout_gravity="top|right"
+             android:background="@drawable/roud_button_xoa"
+             android:textSize="@dimen/co_chu_giaodien"
+             android:gravity="center" 
+             android:visibility="gone"/>
+
+    </FrameLayout>
+
+   
+ 	<View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@color/xam_50" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:gravity="center" >
+ 
+        <!-- Yes button -->
+        <!-- No Button -->
+    </LinearLayout>
+ 
+</LinearLayout>

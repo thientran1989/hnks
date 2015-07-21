@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mau_nen" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/ln_nhom_vtu_tab_chiphi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center" >
+
+                            <Spinner
+                                android:id="@+id/spn_NHOM_VTU_tab_vattu_thanhtoan_khachhang"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:paddingRight="5dp" >
+
+                            <Spinner
+                                android:id="@+id/spn_MAU_VTU_tab_vattu_thanhtoan_khachhang"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.6" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical" >
+
+                                <Button
+                                    android:id="@+id/btn_CHON_MAU_VTU_tab_vattu_thanhtoan_khachhang"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:onClick="chon_het_mau"
+                                    android:text="@string/chon_mau"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.9"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <EditText
+                            android:id="@+id/edt_timkiem_tab_chiphi"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:hint="@string/tim_kiem_vat_tu" >
+
+                            <requestFocus />
+                        </EditText>
+
+                        <View
+                            android:layout_width="2dp"
+                            android:layout_height="5dp" />
+
+                        <TextView
+                            android:id="@+id/tv_title_tab_chiphi"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:background="@color/xanh_sang_500"
+                            android:gravity="center"
+                            android:text="@string/vat_tu_da_chon"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.9" >
+
+                        <ListView
+                            android:id="@+id/lv_bovt_tab_chiphi"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5" >
+                        </ListView>
+
+                        <View
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/cam_dam" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5" >
+
+                            <ListView
+                                android:id="@+id/lvVatTu_tab_vattu_thanhtoan_khachhang"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" >
+                            </ListView>
+
+                            <android.inputmethodservice.KeyboardView
+                                android:id="@+id/keyboardview"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp" >
+
+                <Button
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/roud_button_green"
+                    android:onClick="thoat"
+                    android:text="@string/back"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp" >
+
+                <Button
+                    android:id="@+id/btn_xoa_het_tab_chiphi"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/roud_button_xoa"
+                    android:onClick="xoa_het_vat_tu"
+                    android:text="@string/xoa_het"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp" >
+
+                <Button
+                    android:id="@+id/btn_luu_mau_tab_chiphi"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/rounded_cam"
+                    android:onClick="SHOW_DIALOG_LUU_MAU"
+                    android:text="@string/luu_mau"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+                        android:id="@+id/ln_chon_vtu_tab_chiphi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingRight="3dp" 
+                        android:background="@color/teal_A400"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.9"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/tv_ten_vtu_tab_chiphi"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.7"
+                                    android:text="Large Text"
+                                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                                <EditText
+                                    android:id="@+id/edt_sl_vtu_tab_chiphi"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.3"
+                                    android:ems="10"
+                                    android:inputType="numberDecimal"
+                                    android:maxLength="7" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/tv_ten_vtu_lap_tab_chiphi"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.7"
+                                    android:text="Large Text"
+                                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                                <EditText
+                                    android:id="@+id/edt_sl_vtu_lap_tab_chiphi"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.3"
+                                    android:ems="10"
+                                    android:inputType="numberDecimal"
+                                    android:maxLength="7" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="10dp" >
+
+                            <Button
+                                android:id="@+id/btn_chon_vtu_xong_tab_chiphi"
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/roud_button_ok"
+                                android:onClick="them_vattu"
+                                android:text="@string/ok"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/co_chu_giaodien"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+</FrameLayout>

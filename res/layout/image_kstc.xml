@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="#FFFFFF">
+
+      <SurfaceView
+        android:id="@+id/surfaceView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+      <view
+         android:id="@+id/imageview1"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         class="hnks.kitsoft.vn.dokhoangcach.Direction" />
+
+      <LinearLayout
+          android:id="@+id/screen"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical" >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              >
+
+              <ImageView
+                  android:id="@+id/canbang"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.53"
+                  android:src="@drawable/ic_launcher" />
+
+              <Button
+                  android:id="@+id/btn_start"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.08"
+                  android:text="Start" />
+
+              <Button
+                  android:id="@+id/btn_stop"
+                  style="?android:attr/buttonStyleSmall"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.10"
+                  android:text="Stop" />
+
+              <Button
+                  android:id="@+id/photo_ref"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="Photo" />
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="0.9" >
+
+              <LinearLayout
+                  android:layout_width="125dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.00"
+                  android:orientation="vertical" >
+
+                  <view
+                      android:id="@+id/mycompass"
+                      android:layout_width="match_parent"
+                      android:layout_height="112dp"
+                      class="hnks.kitsoft.vn.dokhoangcach.Compass" />
+
+                  <TextView
+                      android:id="@+id/azimuth"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="TextView"
+                      android:textColor="@color/white" />
+
+                  <TextView
+                      android:id="@+id/pitch"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="TextView"
+                      android:textColor="@color/white" />
+
+                  <TextView
+                      android:id="@+id/roll"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="TextView"
+                      android:textColor="@color/white" />
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.06"
+                  android:orientation="vertical" >
+
+                  <TextView
+                      android:id="@+id/tv_live_angle"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center_horizontal"
+                      android:text="Large Text"
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:textColor="@color/white" />
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.00"
+                  android:orientation="vertical" >
+
+                  <TextView
+                      android:id="@+id/toadoX"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="TextView"
+                      android:textColor="@color/white" />
+
+                  <TextView
+                      android:id="@+id/toadoY"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="TextView"
+                      android:textColor="@color/white" />
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content" >
+
+                      <TextView
+                          android:id="@+id/khoangcach"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="0.07"
+                          android:gravity="center_horizontal"
+                          android:text="TextView"
+                          android:textColor="@color/white" />
+
+                      <Button
+                          android:id="@+id/btn_kcach"
+                          style="?android:attr/buttonStyleSmall"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="0.07"
+                          android:text="L(met)" />
+                  </LinearLayout>
+
+                  <ImageView
+                          android:id="@+id/im_frame"
+                          android:layout_width="150dp"
+                          android:layout_height="100dp"/>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content" >
+
+                      <EditText
+                          android:id="@+id/ed_chieucao"
+                          android:layout_width="30dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="0.04"
+                          android:ems="10"
+                          android:text="1.5" >
+
+                          <requestFocus />
+                      </EditText>
+
+                      <Button
+                          android:id="@+id/btn_luu"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="0.07"
+                          android:text="Luu" />
+
+                  </LinearLayout>
+              </LinearLayout>
+
+          </LinearLayout>
+      </LinearLayout>
+
+</FrameLayout>

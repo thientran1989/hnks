@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mau_nen" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_TEN_HESO_row_heso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/xanh_sang_500"
+            android:gravity="center"
+            android:text="Large Text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/co_chu_giaodien"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_CHON_row_heso"
+            android:layout_width="@dimen/button_round_large_size"
+            android:layout_height="@dimen/button_round_large_size"
+            android:background="@drawable/rounded_hong"
+            android:text="@string/chon"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white" 
+            android:layout_gravity="right|top"
+            android:layout_margin="5dp"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.33"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_PT_TT_row_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="tv_PT_TT"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tv_PT_K_row_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="K"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tv_PT_C1_row_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C1"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+            <View
+                    android:layout_width="@dimen/cyan_line_row"
+                    android:layout_height="match_parent"
+                    android:background="@color/cyan"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.33"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:id="@+id/tv_PT_C_row_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tv_PT_VAT_row_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VAT"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tv_PT_NC1_row_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NC1"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+			<View
+                    android:layout_width="@dimen/cyan_line_row"
+                    android:layout_height="match_parent"
+                    android:background="@color/cyan"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.33"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:id="@+id/tv_PT_TL_row_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TL"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tv_PT_NC_row_heso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NC"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

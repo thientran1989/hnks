@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/mau_nen" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.85"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lv_HINHANH_tab_hinhanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+		
+        <GridView
+        android:id="@+id/grid_HINHANH_tab_hinhanh"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:background="@color/mau_nen"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"
+        android:paddingBottom="5dp" 
+        android:visibility="gone">
+        </GridView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:gravity="center|top">
+
+         <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center" 
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_xoa_het_tab_hinhanh"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:onClick="xoa_tat_ca_hinh"
+                    android:text="@string/xoa_het"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:background="@drawable/roud_button_xoa"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" >
+
+                <Button
+                    android:id="@+id/btn_camera_tab_hinhanh"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:onClick="xoa_het_vat_tu"
+                    android:text="@string/chupanh"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:background="@drawable/roud_button_ok" 
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingTop="5dp" 
+                android:background="@drawable/roud_button_ok">
+
+                <ImageView
+                    android:id="@+id/imb_DODAC_tab_hinhanh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/camera_cong" />
+
+            </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mau_nen"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/tv_STT_row_hso_ctinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="122"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_STT_row_hso_ctinh"
+            android:layout_width="@dimen/button_round_large_size"
+                android:layout_height="@dimen/button_round_large_size"
+                android:background="@drawable/roud_button_ok"
+                android:text="@string/ks"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:typeface="normal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp" >
+        <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/cyan"/>
+    </LinearLayout>
+
+    
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:paddingLeft="3dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_MA_YCAU_KNAI_row_hso_chiettinh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:focusable="false"
+                android:paddingLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="bottom"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:id="@+id/tv_TEN_YCAU_KNAI_row_hso_chiettinh"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:paddingLeft="5dp"
+                    android:text="Large Text"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/DarkBlue" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:id="@+id/tv_DIACHI_YCAU_KNAI_row_hso_chiettinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+        <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/cyan" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_tt_xong_row_hsochiettinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp" >
+        <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/cyan" 
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" 
+        android:paddingRight="5dp">
+
+        <Button
+            android:id="@+id/btnXoaHS_row_hso_ctinh"
+            android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/roud_button_xoa"
+                android:text="@string/xoa"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:typeface="normal" />
+    </LinearLayout>
+
+</LinearLayout>

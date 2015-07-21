@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hnks.kitsoft.vn"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+    
+     <permission
+        android:name="kscthn.kitsoft.vn.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+	
+   
+    <uses-permission android:name="ksct.kitsoft.vn.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+   
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_chiet_tinh"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="hnks.kitsoft.vn.Main_Activity"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="hnks.kitsoft.vn.DSHS_CHIETTINH_Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="hnks.kitsoft.vn.CaiDat_Activity"
+            android:screenOrientation="landscape" />
+        <activity android:name="hnks.kitsoft.vn.TAB_D_MAU_Activity" />
+        <activity
+            android:name="hnks.kitsoft.vn.TAB_VATTU_KHAOSAT"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="landscape" />
+        <activity android:name="hnks.kitsoft.vn.TAB_VATTU_CHIPHI"
+            android:screenOrientation="landscape" />
+        <activity android:name="hnks.kitsoft.vn.TAB_VATTU_COSAN"
+            android:screenOrientation="landscape" />
+        <activity android:name="hnks.kitsoft.vn.TAB_BAN_DO"
+            android:screenOrientation="landscape" />
+        <activity android:name="hnks.kitsoft.vn.TAB_HINH_ANH"
+            android:screenOrientation="landscape" />
+        <activity android:name="hnks.kitsoft.vn.TAB_THONGTIN_HOSO"
+            android:screenOrientation="landscape" />
+        <activity android:name="hnks.kitsoft.vn.Ac_giaodien_khachhang"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="hnks.kitsoft.vn.custom_dialog.CAPNHAT_HSO"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="hnks.kitsoft.vn.TAB_MAIN"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="hnks.kitsoft.vn.camera.DisplayImageActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name="hnks.kitsoft.vn.camera.SQLiteDemoActivity" />
+        <activity
+            android:name="hnks.kitsoft.vn.dokhoangcach.GetPictureGPS"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="hnks.kitsoft.vn.dokhoangcach.CameraActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name="hnks.kitsoft.vn.TAB_CHIETTINH"
+            android:screenOrientation="landscape"  />
+        <activity
+            android:name="hnks.kitsoft.vn.vesodo.Ve_So_Do_Activity"
+            android:screenOrientation="landscape" />
+        <activity android:name="ksct.kitsoft.vn.chiettinh.GHICHU_Activity" />
+        <activity
+            android:name="hnks.kitsoft.vn.Ban_Do_Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="hnks.kitsoft.vn.Ac_xem_vattu"
+            android:screenOrientation="landscape" />
+         <activity
+            android:name="hnks.kitsoft.vn.Ac_Tai_Phan_Mem"
+            android:screenOrientation="landscape" />
+         
+         <activity android:screenOrientation="landscape" android:name="hnks.kitsoft.vn.Ac_ThemVatTu" />
+         <activity android:screenOrientation="landscape" android:name="hnks.kitsoft.vn.Ac_giaodien_quantri" />
+          <activity android:screenOrientation="landscape" android:name="hnks.kitsoft.vn.DanhSach_VatTu" />
+          <activity android:screenOrientation="landscape" android:name="hnks.kitsoft.vn.CauHinh_HeSo" />
+          <activity android:screenOrientation="landscape" android:name="hnks.kitsoft.vn.Ac_Cauhinh_Chuky" />
+		<meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAkPxAjM-yApF38NoY6hN4MrKrs5i5E_eM" />
+    </application>
+
+</manifest>

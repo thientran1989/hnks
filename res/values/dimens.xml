@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Brush sizes -->
+    <dimen name="small_brush">10dp</dimen>
+
+    <integer name="small_size">2</integer>
+
+    <dimen name="medium_brush">20dp</dimen>
+
+    <integer name="medium_size">5</integer>
+
+    <dimen name="large_brush">30dp</dimen>
+
+    <integer name="large_size">10</integer>
+    <!-- hinh chup -->
+    <dimen name="text_size_diachi_hinhanh">5dp</dimen>
+    <dimen name="text_size_ten_hinhanh">7dp</dimen>
+    <dimen name="stroke_width_hinhanh">7dp</dimen>
+    <dimen name="stroke_width_chuthap">2dp</dimen>
+    <dimen name="do_dai_chuthap_hinhanh">50sp</dimen>
+    <!-- het hinh chup -->
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    
+    <!-- button so luong -->
+    <dimen name="button_round_small_size">48dp</dimen>
+	<dimen name="button_round_large_size">64dp</dimen>
+	<dimen name="button_round_very_large_size">96dp</dimen>
+	
+    <!-- fab button -->
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_shadow_size">8dp</dimen>
+    <dimen name="fab_mini_shadow_size">6dp</dimen>
+    <dimen name="fab_min_significant_scroll">4dp</dimen>
+    <dimen name="fab_elevation_lollipop">8dp</dimen>
+    <dimen name="co_chu_giaodien">30sp</dimen>
+    <dimen name="white_line_giaodien">5dp</dimen>
+    <dimen name="cyan_line_row">2dp</dimen>
+    <dimen name="pading_line_row">3dp</dimen>
+
+</resources>

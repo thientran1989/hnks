@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mau_nen"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@color/teal_A400"
+            android:gravity="center" >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33" 
+                android:gravity="center"
+                android:onClick="open_map">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_map"
+                    android:paddingTop="3dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xembando"
+                    android:textAppearance="?android:attr/textAppearanceLarge" 
+                    android:textColor="@color/teal_900"
+                    android:paddingLeft="5dp"/>
+
+            </LinearLayout>
+<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp">
+
+                <View
+                    android:layout_width="@dimen/cyan_line_row"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cyan" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33" 
+                android:gravity="center"
+                android:onClick="show_dialog_dat_ten">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_save"
+                    android:paddingTop="3dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/luu_toa_do"
+                    android:textAppearance="?android:attr/textAppearanceLarge" 
+                    android:textColor="@color/teal_900"
+                    android:paddingLeft="5dp"/>
+
+            </LinearLayout>
+<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp">
+
+                <View
+                    android:layout_width="@dimen/cyan_line_row"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cyan" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33" 
+                android:gravity="center"
+                android:onClick="xoa_het_toa_do">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_delete_white"
+                    android:paddingTop="3dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xoa_het_ngang"
+                    android:textAppearance="?android:attr/textAppearanceLarge" 
+                    android:textColor="@color/teal_900"
+                    android:paddingLeft="5dp"/>
+
+            </LinearLayout>
+
+           
+
+           
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_X_tab_bando"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:ems="10"/>
+
+            <Button
+                android:id="@+id/btnLocationUpdates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="update" />
+            <Button
+                android:id="@+id/btnShowLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="get XY" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_TOADO_tab_bando"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9" >
+        </ListView>
+
+</LinearLayout>

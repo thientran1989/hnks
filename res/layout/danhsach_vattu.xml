@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mau_nen" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/edt_timkiem_dsvt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:ems="10"
+                android:hint="@string/tim_kiem_vat_tu" >
+
+                <requestFocus />
+            </EditText>
+
+            <Spinner
+                android:id="@+id/spn_NHOM_VTU_dsvt"
+                 android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_vattu_dsvt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+        </ListView>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="@dimen/button_round_large_size"
+        android:layout_height="@dimen/button_round_large_size"
+        android:background="@drawable/roud_button_ok"
+        android:onClick="to_them_vattu"
+        android:text="@string/them"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="20dp" />
+
+</FrameLayout>

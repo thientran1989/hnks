@@ -1,0 +1,348 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mau_nen"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <!-- Top Buttons -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="vertical" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" >
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/pading_line_row"
+                    android:paddingRight="@dimen/pading_line_row" >
+                    <Button
+                    android:id="@+id/save_btn"
+                    
+                    	android:layout_width="@dimen/button_round_large_size"
+                    android:layout_height="fill_parent"
+                    android:onClick="luu_hinh"
+                    android:text="Lưu\nhình"
+                    android:background="@drawable/roud_button_ok"
+                    android:textColor="@color/white"/> 
+                
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/pading_line_row" >
+                   <Button
+                    android:id="@+id/btn_LUU_MAU_ve_so_do"
+                  	android:layout_width="@dimen/button_round_large_size"
+                    android:layout_height="fill_parent"
+                    android:onClick="luu_mau"
+                    android:text="Lưu\nmẫu"
+                    android:background="@drawable/roud_button_ok" />/>
+                
+                </LinearLayout>
+				<!-- 
+				<ImageButton
+                    android:id="@+id/free_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/td" />
+				 -->
+				  <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/pading_line_row" >
+                  <Button
+                    android:layout_width="@dimen/button_round_large_size"
+                    android:layout_height="fill_parent"
+                    android:onClick="so_do_mau"
+                    android:text="Chọn\nmẫu"
+                    android:background="@drawable/roud_button_xoa" />
+                
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/pading_line_row" >
+                  <Button
+                    android:layout_width="@dimen/button_round_large_size"
+                    android:layout_height="fill_parent"
+                    android:onClick="chon_nen"
+                    android:text="Chọn\nnền"
+                    android:background="@drawable/roud_button_xoa" />
+                
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/pading_line_row" >
+                  <Button
+                    android:layout_width="@dimen/button_round_large_size"
+                    android:layout_height="fill_parent"
+                    android:onClick="ve_hinh_cot"
+                    android:text="Cột"
+                    android:background="@drawable/roud_button_xoa" />
+                </LinearLayout>
+                 <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/pading_line_row" >
+                  <Button
+                    android:layout_width="@dimen/button_round_large_size"
+                    android:layout_height="fill_parent"
+                    android:onClick="ve_hinh_cot_ngang"
+                    android:text="Cột\nngang"
+                    android:background="@drawable/roud_button_xoa" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/pading_line_row" >
+                  <Button
+                    android:layout_width="@dimen/button_round_large_size"
+                    android:layout_height="fill_parent"
+                    android:onClick="ve_hinh_hop"
+                    android:text="Hộp"
+                    android:background="@drawable/roud_button_xoa" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/pading_line_row" >
+                  <Button
+                    android:layout_width="@dimen/button_round_large_size"
+                    android:layout_height="fill_parent"
+                    android:onClick="ve_hinh_hop_ngang"
+                    android:text="Hộp\nngang"
+                    android:background="@drawable/roud_button_xoa" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/pading_line_row" >
+
+                    <Button
+                        android:layout_width="@dimen/button_round_large_size"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/rounded_teal"
+                        android:onClick="chon_tram"
+                        android:text="Trạm" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/pading_line_row" >
+
+                    <Button
+                        android:layout_width="@dimen/button_round_large_size"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/rounded_teal"
+                        android:onClick="chon_tru"
+                        android:text="Trụ" />
+
+                </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/pading_line_row" >
+
+                     <Button
+                         android:layout_width="@dimen/button_round_large_size"
+                         android:layout_height="fill_parent"
+                         android:background="@drawable/rounded_teal"
+                         android:onClick="chon_khac"
+                         android:text="Khác" />
+
+                 </LinearLayout>
+				<ImageButton
+                        android:id="@+id/text_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/text"
+                        android:onClick="ve_text" />
+
+                    <ImageButton
+                        android:id="@+id/l2r_arrow_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_arrow_black_right" 
+                        android:onClick="ve_mui_ten"/>
+
+      <ImageButton
+                    android:id="@+id/line_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_line"
+                    android:onClick="ve_line" />
+
+                <ImageButton
+                    android:id="@+id/btn_LINE_DUT_NET"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_dashed_line"
+                    android:onClick="ve_line_dut" />
+
+                <ImageButton
+                    android:id="@+id/twoline_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/twoline"
+                    android:onClick="ve_hai_line" />
+                
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8" >
+
+            <hnks.kitsoft.vn.vesodo.DrawingView
+                android:id="@+id/drawing"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFFFF" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <include
+                    android:id="@+id/ln_tram_vesodo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    layout="@layout/ve_tram" />
+
+                <include
+                    android:id="@+id/ln_tru_vesodo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    layout="@layout/ve_tru" />
+
+                <include
+                    android:id="@+id/ln_khac_vesodo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    layout="@layout/ve_khac" />
+
+              
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_XOA_CANVAS_ve_so_do"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="xoa_het_so_do"
+            android:text="Xoá hết" />
+
+        <ListView
+            android:id="@+id/lv_CANVAS_HISTORY_ve_so_do"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:listSelector="@drawable/list_selector" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/btn_TRAI"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trai" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_LEN"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/len" />
+
+                <Button
+                    android:id="@+id/btn_XUONG"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/xuong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/btn_PHAI"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phai" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

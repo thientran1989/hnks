@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mau_nen"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" 
+    android:gravity="center|left">
+    <!-- Top Buttons -->
+     <ImageButton
+        android:id="@+id/cv_tram_1pha_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tram_1pha_hhuu"
+        android:src="@drawable/cv_tram_1pha_hhuu" />
+      <ImageButton
+        android:id="@+id/cv_tram_1pha_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tram_1pha_slap"
+        android:src="@drawable/cv_tram_1pha_slap" />
+       <ImageButton
+        android:id="@+id/cv_tram_3pha_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tram_3pha_hhuu"
+        android:src="@drawable/cv_tram_3pha_hhuu_48" />
+      <ImageButton
+        android:id="@+id/cv_tram_3pha_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tram_3pha_slap"
+        android:src="@drawable/cv_tram_3pha_slap_48" />
+      <ImageButton
+        android:id="@+id/imb_tram_3pha_nen_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tram_3pha_nen_hhuu"
+        android:src="@drawable/cv_tram_3pha_nen_hhuu_48" />
+      <ImageButton
+        android:id="@+id/imb_tram_3pha_nen_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tram_3pha_nen_slap"
+        android:src="@drawable/cv_tram_3pha_nen_slap_48" />
+       <ImageButton
+        android:id="@+id/imb_tram_3pha_nha_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tram_3pha_nha_hhuu"
+        android:src="@drawable/cv_tram_3pha_nha_hhuu_48" />
+      <ImageButton
+        android:id="@+id/imb_tram_3pha_nha_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_tram_3pha_nha_slap"
+        android:src="@drawable/cv_tram_3pha_nha_slap_48" />
+      
+      <ImageButton
+        android:id="@+id/imb_thapsat_10_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_thapsat_10_hhuu"
+        android:src="@drawable/cv_thapsat_10_hhuu" />
+      <ImageButton
+        android:id="@+id/imb_thapsat_10_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_thapsat_10_slap"
+        android:src="@drawable/cv_thapsat_10_slap" />
+      <ImageButton
+        android:id="@+id/imb_thapsat_12_hhuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_thapsat_12_hhuu"
+        android:src="@drawable/cv_thapsat_12m_hhuu" />
+      <ImageButton
+        android:id="@+id/imb_thapsat_12_slap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ve_thapsat_12_slap"
+        android:src="@drawable/cv_thapsat_12m_slap" />
+
+</LinearLayout>

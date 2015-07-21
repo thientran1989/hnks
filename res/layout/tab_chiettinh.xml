@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/mau_nen" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="0dp"
+        android:layout_weight="0.9"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/TableRow11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <TableRow
+                        android:id="@+id/TableRow10"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:id="@+id/TextView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/loaichiphi"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/TableRow09"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/dienluc"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/TableRow12"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/khachhang"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TableRow
+                        android:id="@+id/tableRow6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:id="@+id/TextView08"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/tienvanchuyen"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_TIEN_VAN_CHUYEN_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/Red"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_TIEN_VAN_CHUYEN_KH_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/Red"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:id="@+id/TextView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/chiphitructiep"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_T_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_T_KH_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Small Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <TableRow
+                        android:id="@+id/TableRow06"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:id="@+id/TextView02"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/tienvatlieu"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/TableRow04"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_TIEN_VAT_LIEU_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/Red"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/TableRow08"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_TIEN_VAT_LIEU_KH_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/Red"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <TableRow
+                        android:id="@+id/TableRow01"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:id="@+id/TextView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/tiennhancong"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/TableRow02"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_TIEN_NHAN_CONG_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/Red"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/TableRow03"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_TIEN_NHAN_CONG_KH_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/Red"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/tienthicong"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_TIEN_THI_CONG_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/Red"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_TIEN_THI_CONG_KH_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Small Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/Red"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:id="@+id/TextView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/chiphitructiepkhac"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_TT_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/Red"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_TT_KH_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Small Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/Red"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:id="@+id/TextView05"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/chiphichung"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_C_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_C_KH_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Small Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:id="@+id/TextView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/thunhapchiuthuetinhtruoc"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_TL_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_TL_KH_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Small Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/khaosatvalapchiettinh"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_K_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_K_KH_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Small Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/giatrichiettinhtruocthue"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_Gtt_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/Red"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_Gtt_KH_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Small Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/Red"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/thuegiatrigiatang"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_VAT_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_VAT_KH_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Small Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33" >
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="@string/tonggiatri"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_G_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25" >
+
+                        <TextView
+                            android:id="@+id/tv_G_KH_tab_thongtin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:text="Small Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

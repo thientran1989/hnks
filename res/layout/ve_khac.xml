@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mau_nen"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+    <!-- Top Buttons -->
+
+       <ImageButton
+           android:id="@+id/congto_btn"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:onClick="ve_cong_to"
+           android:src="@drawable/cv_cong_to_32" />
+
+                    <ImageButton
+                        android:id="@+id/nha_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:onClick="ve_nha"
+                        android:src="@drawable/cv_nha_32" />
+
+                   
+                
+                <!-- treo cong to -->
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cv_congto_treo_nha_32"
+                    android:onClick="ve_congto_treo_nha" />
+                
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cv_congto_treo_tru_btlt_105_hhuu"
+                    android:onClick="ve_congto_treo_tru_btlt_105_hhuu" />
+                
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cv_congto_treo_tru_btlt_105_slap"
+                    android:onClick="ve_congto_treo_tru_btlt_105_slap" />
+                
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cv_congto_treo_tru_bttl_12_32"
+                    android:onClick="ve_congto_treo_tru_bttl_12" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cv_congto_treo_tru_btv_65_hhuu"
+                    android:onClick="ve_congto_treo_tru_btv_65_hhuu" />
+                 <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cv_congto_treo_tru_btv_65_slap"
+                    android:onClick="ve_congto_treo_tru_btv_65_slap" />
+                <!-- het treo cong to -->
+
+                <ImageButton
+                    android:id="@+id/rec_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_kdt"
+                    android:onClick="ve_khu_dat_trong" />
+
+                <ImageButton
+                    android:id="@+id/btn_CAU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cau_bontam" 
+                    android:onClick="ve_cau"/>
+
+                <ImageButton
+                    android:id="@+id/btn_Z_NGANG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_z_ngang" 
+                    android:onClick="ve_hinh_z_ngang"/>
+
+                <ImageButton
+                    android:id="@+id/btn_Z_NGANG_DUT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_dashed_z"
+                    android:onClick="ve_hinh_z_ngang_dut" />
+                  
+
+                   
+    
+
+</LinearLayout>
